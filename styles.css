@@ -1,35 +1,37 @@
-/*  your css code here. If applicable */
-body{
-	background-color:rgb(204, 204, 204);
+body {
+    background-color: rgb(204, 204, 204);
 }
 
-.heading{
-	text-align:center;
+.heading {
+    text-align: center;
 }
+
 .player_one {
-	list-style-type:none;
-	border: 2px solid black;
-	background-color: #ffffff;
-	
-	border-radius: 5px;
-	margin: 15px 25px 20px 25px;
-	
+    list-style-type: none;
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 15px 25px 20px 25px;
 }
 
-.player_two{
-	background-color: #ffffff;
-	border-radius: 10px;
-	border: 2px solid black;
-	margin: 10px 55px 10px 55px;
-	padding: 20px;
+.player_one ul li {
+    padding: 5px;
+}
+
+.player_two {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 55px 10px 55px;
+    padding: 20px;
 }
 
 audio {
-	width:100%;
-	height: 50px;
+    width: 100%;
+    height: 50px;
 }
 
-a{
-	text-decoration: none;
-	color: black;
+a {
+    text-decoration: none;
+    color: black;
 }
